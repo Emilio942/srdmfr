@@ -1,0 +1,156 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Model Files (PyTorch, TensorFlow, etc.)
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.ckpt
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+
+# Large Data Files
+*.csv
+*.tsv
+*.parquet
+*.feather
+data/raw/
+data/processed/
+data/temp/
+data/cache/
+*.npy
+*.npz
+
+# All Checkpoints and Model Outputs
+checkpoints/
+models/
+saved_models/
+optimized_models/
+test_checkpoints/
+model_cache/
+pretrained/
+
+# All Experiment Results and Analysis
+evaluation_results/
+hyperparameter_experiments/
+optimization_results/
+ablation_results/
+physics_analysis_improved/
+analysis/
+experiments/
+results/
+outputs/
+
+# Logs and Monitoring
+logs/
+*.log
+wandb/
+tensorboard_logs/
+tb_logs/
+mlruns/
+runs/
+
+# Images, Plots, and Media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.pdf
+*.svg
+*.eps
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# Archive Files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environment and Virtual Environments
+venv/
+env/
+ENV/
+.env
+.venv
+conda_env/
+.conda/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+cache/
+.cache/
+
+# Large Binary Files
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Only keep essential directories with placeholder files
+data/raw/.gitkeep
+data/processed/.gitkeep
+checkpoints/.gitkeep
+logs/.gitkeep
